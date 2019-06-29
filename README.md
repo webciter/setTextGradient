@@ -11,7 +11,7 @@ npm -i element-functions-set_text_gradient
 Set the Gradient of a TextNode without effecting the Layout, you just pass in the class name into 
 the function Element.setTextGradientClass then this will aplly the same text gradient to all nested elements
 
-<h3>Assign a Class</3>
+<h3>Assign a Class</h3>
 html
 
 <code>
