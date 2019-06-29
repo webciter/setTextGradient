@@ -1,0 +1,23 @@
+{
+  "name": "element-functions-set_text_gradient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "element-functions-set_text_gradient.js",
+  "dependencies": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webciter/setTextGradient.git#1.0.0"
+  },
+  "keywords": [
+    "text","gradient","font","text","TextNode"
+  ],
+  "author": "David Clews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webciter/setTextGradient/issues"
+  },
+  "homepage": "https://github.com/webciter/setTextGradient#readme"
+}
