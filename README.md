@@ -12,9 +12,10 @@ Set the Gradient of a TextNode without effecting the Layout, you just pass in th
 the function Element.setTextGradientClass then this will aplly the same text gradient to all nested elements
 
 <h3>Assign a Class</h3>
+
 html
 
-<code>
+<pre>
 
 &lt;div class="textGradient1" &gt;
 TEST 1
@@ -24,25 +25,25 @@ TEST 1
   &lt;/iv&gt;
 
 &lt;/iv&gt;
-</code>
+</pre>
 css
-<code>
+<pre>
 .class_name{
 background: -webkit-linear-gradient(0deg, #00FF00, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(0deg, #00FF00, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-</code>
+</pre>
 
 js
-<code>
+<pre>
 let ele = document.getElementById("textGradient1");
 ele.setTextGradient();
 ele.setTextGradientClass("class_name");
-</code>
+</pre>
 
 <h3>Override a Child Element</h3>
 html
-<code>
+<pre>
 
 &lt;div class="textGradient1" &gt;
 TEST 1
@@ -52,21 +53,21 @@ TEST 1
   &lt;/iv&gt;
 
 &lt;/iv&gt;
-</code>
+</pre>
 
 css
-<code>
+<pre>
 .class_name2
 background: -webkit-linear-gradient(0deg, #00FF00, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(0deg, #00FF00, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-</code>
+</pre>
 
 js
-<code>
+<pre>
 let ele = document.getElementById("textGradient2");
 ele.setTextGradient();
 ele.setTextGradientClass("class_name2);
-</code>
+</pre>
 
 Then this  gives you the most amount of freedom when creating gradients
