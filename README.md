@@ -1,6 +1,8 @@
 # setTextGradient
 Sets the Gradient of a TextNode, without effecting the Layout
 
+<a href="http://davidclews.com/applications/programming/setTextGradient/index.html">Demo</a>
+
 <h3>Installation</h3>
 
 <pre>
