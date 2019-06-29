@@ -14,9 +14,7 @@ the function Element.setTextGradientClass then this will aplly the same text gra
 <h3>Assign a Class</h3>
 
 html
-
 <pre>
-
 &lt;div class="textGradient1" &gt;
 TEST 1
 
@@ -24,8 +22,9 @@ TEST 1
   TEST 2
   &lt;/iv&gt;
 
-&lt;/iv&gt;
+&lt;/div&gt;
 </pre>
+
 css
 <pre>
 .class_name{
@@ -44,13 +43,12 @@ ele.setTextGradientClass("class_name");
 <h3>Override a Child Element</h3>
 html
 <pre>
-
 &lt;div class="textGradient1" &gt;
 TEST 1
 
   &lt;div class="textGradient2" &gt;
   TEST 2
-  &lt;/iv&gt;
+  &lt;/div&gt;
 
 &lt;/iv&gt;
 </pre>
