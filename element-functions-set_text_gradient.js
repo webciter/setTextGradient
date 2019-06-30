@@ -195,7 +195,6 @@ Element.prototype.setTextGradient = function(){
 			//unwrap textnodes
 
 			if(self.contains(wrappers[i])){
-			console.log(wrappers[i]);
 				textNodeUnwrapper(wrappers[i]);
 			}
 
