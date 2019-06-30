@@ -1,7 +1,7 @@
 /*
  * setTextGradient
  *
- * create text gradients on a elements TextNodes, including all children
+ * create text gradients on an elements TextNode
  * 
  * @author David Clews
  * @version 1.0.0
@@ -143,7 +143,7 @@ Element.prototype.setTextGradient = function(){
 
 		let textNodes = textNodeWalker(self);
 
-		for(let = i =0;i<textNodes.length;i++){
+		for(let i = 0;i<textNodes.length;i++){
 			textNodeWrapper(textNodes[i]);
 
 		}
